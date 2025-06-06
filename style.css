@@ -50,6 +50,8 @@ h2{
     display: flex;
    justify-content:space-between;
    padding-bottom: 60px;
+   position: sticky;
+   top: 0;
 }
 ul li {
     list-style: none;
@@ -194,4 +196,13 @@ margin: auto;
     color: white;
     justify-content: flex-end;
 
+ }
+ .footer{
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ .footer-body p{
+    color: white;
  }
